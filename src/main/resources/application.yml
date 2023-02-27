@@ -1,0 +1,18 @@
+# 保存图片文件的根目录设置
+file:
+  copyPath: C:\Users\USER\Desktop
+
+#logging:
+#  config: classpath:logback-spring.xml
+logging:
+  config: classpath:logback.xml
+  level:
+    com.shiny.dao: info
+
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
